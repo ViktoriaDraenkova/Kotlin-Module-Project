@@ -1,4 +1,4 @@
 data class Archive(
-        val name: String,
+        override val name: String,
         val notesArray: ArrayList<Note> = ArrayList()
-)
+) : NamedListItem()

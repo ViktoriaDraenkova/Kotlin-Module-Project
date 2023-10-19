@@ -1,4 +1,1 @@
-data class Note(
-        val title: String,
-        val content: String
-)
+data class Note(override val name: String, val content: String) : NamedListItem()
