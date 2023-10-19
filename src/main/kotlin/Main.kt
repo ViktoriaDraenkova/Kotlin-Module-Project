@@ -1,3 +1,4 @@
 fun main(args: Array<String>) {
-    println("Hello World!")
+    var app: Application = Application()
+    app.run()
 }
